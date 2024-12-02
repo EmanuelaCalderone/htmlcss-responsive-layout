@@ -44,9 +44,18 @@ h1{
     max-width:100%;
 }
 
+.info_recipe {
+    padding-left:20px;
+}
+
 .in_short {
     list-style-type:none;
     font-size: 14px;
+    line-height:25px;
+}
+
+h4 {
+    margin-bottom:20px;
 }
 
 .strong {
@@ -55,9 +64,19 @@ h1{
 
 .icons{
     margin:20px 0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
     /*debug*/
     height:40px;
     background-color:rgb(224, 242, 34);
+}
+
+.fa-brands{
+    background-color:white;
+    padding:8px;
+    border-radius:30%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 1); 
 }
 
 footer{

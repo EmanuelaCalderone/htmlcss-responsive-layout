@@ -10,8 +10,8 @@ body{
 }
 
 header {
-    height:70px;
     background-color:orange;
+    height:70px;
 }
 
 h1{
@@ -24,9 +24,9 @@ h1{
 }
 
 .container{
+    background-color:green;
     width:90%;
     margin: 20px auto;
-    background-color:green;
 }
 
 .info_recipe, .presentation{
@@ -99,6 +99,27 @@ h4 {
 }
 
 footer{
-    height:130px;
     background-color:#7C69A4;
+    
+    color:white;
+    font-size:10px;
+}
+
+.footer-content {
+    text-align:center;
+    align-items:center;
+    line-height:20px;
+    font-size:10px;
+    width:80%;
+    margin:0 auto;
+}
+
+.footer-navbar{
+    display:flex;
+    justify-content:space-between;
+    list-style-type:none;
+}
+
+.footer-navbar a {
+    color:white;
 }

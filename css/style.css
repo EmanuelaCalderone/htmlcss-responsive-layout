@@ -273,4 +273,17 @@ footer{
         margin-left:4px;
         vertical-align:middle;
     }
+
+    .footer-content{
+        display:flex;
+        justify-content:space-between;
+        text-align:left;
+        width:100%;
+        padding-left:20px;
+        padding-right:20px;
+    }
+
+    .footer-navbar li a{
+            margin-right:10px;    
+    }
 }

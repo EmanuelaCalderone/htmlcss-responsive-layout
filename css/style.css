@@ -6,7 +6,6 @@
 
 body{
     background-color:#F6F5F3;
-    font-size:20px;
     font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
 }
 
@@ -18,8 +17,9 @@ header {
 h1{
     font-family:'Nerko One', cursive;
     text-align:center;
-    line-height:70px;
     align-items:center;
+    line-height:70px;
+    font-size:40px;
     
 }
 
@@ -29,19 +29,28 @@ h1{
     background-color:green;
 }
 
-.ricetta, .presentation{
+.info_recipe, .presentation{
     /*debug*/
     height:300px;
     background-color:rgb(2, 47, 62);
     border: solid 2px black;
 }
 
-.ricetta{
+.recipe{
     margin-bottom:20px;
 }
 
 .video img{
     max-width:100%;
+}
+
+.in_short {
+    list-style-type:none;
+    font-size: 14px;
+}
+
+.strong {
+    font-weight:bold;
 }
 
 .icons{

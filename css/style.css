@@ -7,11 +7,20 @@
 body{
     background-color:#F6F5F3;
     font-size:20px;
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
 }
 
 header {
     height:70px;
     background-color:orange;
+}
+
+h1{
+    font-family:'Nerko One', cursive;
+    text-align:center;
+    line-height:70px;
+    align-items:center;
+    
 }
 
 .container{
@@ -29,6 +38,10 @@ header {
 
 .ricetta{
     margin-bottom:20px;
+}
+
+.video img{
+    max-width:100%;
 }
 
 .icons{

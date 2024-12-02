@@ -23,8 +23,11 @@ h1{
     font-weight:normal;
     line-height:70px;
     font-size:40px;
-    
 }
+
+.hidden{
+    display:none;
+} 
 
 /*container principale*/
 .container{
@@ -178,4 +181,33 @@ footer{
 
 .footer-navbar a {
     color:white;
+}
+
+@media screen and (min-width:768px){
+    h1 {
+        text-align:left;
+        margin-left:10px;
+    }
+
+    .container{
+        padding: 20px;
+    }
+
+    .hidden{
+        display:inline;
+    }
+
+    h2{
+        font-size:30px;
+    }
+
+    .in_short{
+        display:flex;
+        gap:20px; 
+        flex-wrap:wrap;
+    }
+
+    .in_short li{
+        flex-basis:30%;
+       }
 }

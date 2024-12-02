@@ -9,8 +9,9 @@ body{
     font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
 }
 
+/*header*/
 header {
-    background-color:orange;
+    background-color:white;
     height:70px;
 }
 
@@ -18,40 +19,59 @@ h1{
     font-family:'Nerko One', cursive;
     text-align:center;
     align-items:center;
+    color: #fb900a;
+    font-weight:normal;
     line-height:70px;
     font-size:40px;
     
 }
 
+/*container principale*/
 .container{
-    background-color:green;
     width:90%;
     margin: 20px auto;
 }
 
+/*prima sezione con immagine e ricetta
 .info_recipe, .presentation{
-    /*debug*/
+    --debug--
     height:700px;
     background-color:rgb(2, 47, 62);
-    border: solid 2px black;
+    border: solid 1px black;
+}*/
+
+h5{
+    color:#989692;
+    font-weight:normal;
 }
 
-.recipe{
-    margin-bottom:20px;
+h2{
+    color:#3d2c69;
+    margin:10px 0;
+}
+
+.info_recipe{
+    background-color:white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+    padding-left:20px;
 }
 
 .video img{
     max-width:100%;
+    display:block;
 }
 
-.info_recipe {
-    padding-left:20px;
+.info_recipe h4{
+    padding-top:20px;
 }
 
+/*descrizione*/
 .in_short {
+    background-color:white;
     list-style-type:none;
-    font-size: 14px;
+    font-size: 12px;
     line-height:25px;
+    padding-bottom:30px;
 }
 
 h4 {
@@ -62,26 +82,58 @@ h4 {
     font-weight:bold;
 }
 
+/*icone*/
 .icons{
     margin:20px 0;
     display:flex;
     justify-content:space-between;
     align-items:center;
     /*debug*/
-    height:40px;
-    background-color:rgb(224, 242, 34);
+    /* height:40px;
+    background-color:rgb(224, 242, 34); */
 }
 
 .fa-brands{
     background-color:white;
     padding:8px;
-    border-radius:30%;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 1); 
+    border-radius:40%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
 }
 
+.fa-facebook{
+    color: #0562f0;
+}
+
+.fa-twitter{
+    color: #009cff;
+}
+
+.fa-instagram{
+    color:#b43c5a;
+}
+
+.fa-pinterest, .fa-youtube{
+    color:#e42833;
+}
+
+/*sezione presentazione*/
 #presentation_title{
+    color:black;
     font-weight:normal;
     margin-bottom:20px;
+    padding-bottom:10px;
+    position:relative;
+}
+
+/*linea arancione sotto "presentation"*/
+#presentation_title::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 15%;
+    height: 1px;
+    background-color: orange;
 }
 
 .tiramisù{
@@ -96,11 +148,13 @@ h4 {
 
 .presentation p{
     font-size:14px;
+    line-height:25px;
+    padding-bottom:40px;
 }
 
+/*footer*/
 footer{
     background-color:#7C69A4;
-    
     color:white;
     font-size:10px;
 }
@@ -112,11 +166,13 @@ footer{
     font-size:10px;
     width:80%;
     margin:0 auto;
+    padding:20px 0;
 }
 
+/*navbar footer*/
 .footer-navbar{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     list-style-type:none;
 }
 

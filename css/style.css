@@ -31,7 +31,7 @@ h1{
 
 .info_recipe, .presentation{
     /*debug*/
-    height:300px;
+    height:700px;
     background-color:rgb(2, 47, 62);
     border: solid 2px black;
 }
@@ -77,6 +77,25 @@ h4 {
     padding:8px;
     border-radius:30%;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 1); 
+}
+
+#presentation_title{
+    font-weight:normal;
+    margin-bottom:20px;
+}
+
+.tiramisù{
+    margin:auto;
+    width:60%;
+}
+
+.tiramisù img{
+    max-width:100%;
+    margin-bottom:10px;
+}
+
+.presentation p{
+    font-size:14px;
 }
 
 footer{

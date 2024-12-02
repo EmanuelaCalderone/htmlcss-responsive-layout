@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:#F6F5F3;
+    font-size:20px;
+}
+
+header {
+    height:70px;
+    background-color:orange;
+}
+
+.container{
+    width:80%;
+    margin:30px auto;
+    background-color:green;
+}
+
+.ricetta, .video, .info_ricetta{
+    /*debug*/
+    height:200px;
+    background-color:rgb(2, 47, 62);
+    border: solid 2px black;
+}

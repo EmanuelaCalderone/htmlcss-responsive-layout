@@ -206,7 +206,7 @@ footer{
         display:inline;
     }
 
-    h2{
+    .title{
         font-size:30px;
     }
 
@@ -232,9 +232,32 @@ footer{
     .tiramisù{
         width:100%;
     }
+
     .tiramisù img{
         float:left;
         width:30%;
         margin-right:20px;
+    }
+}
+
+@media screen and (min-width:992px){
+    .title{
+        font-size:40px;
+    }
+
+    .in_short{
+        display:block;
+    }
+
+    .recipe{
+        display:flex;
+    }
+
+    .video{
+        width:70%;
+    }
+
+    .info_recipe{
+        width:30%;
     }
 }

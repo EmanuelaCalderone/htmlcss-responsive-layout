@@ -119,6 +119,11 @@ h4 {
     color:#e42833;
 }
 
+/*nomi dei social*/
+.social_name{
+    display:none;
+}
+
 /*banner*/
 .banner{
     display:none;
@@ -259,5 +264,13 @@ footer{
 
     .info_recipe{
         width:30%;
+    }
+
+    .social_name{
+        display:inline-block;
+        color:black;
+        font-size:10px;
+        margin-left:4px;
+        vertical-align:middle;
     }
 }

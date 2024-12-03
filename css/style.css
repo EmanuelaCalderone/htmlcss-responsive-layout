@@ -198,6 +198,7 @@ footer{
 }
 
 @media screen and (min-width:768px){
+
     h1 {
         text-align:left;
         margin-left:10px;
@@ -215,6 +216,9 @@ footer{
         font-size:30px;
     }
 
+    .video img{
+        width:100%;
+    }
     .in_short{
         display:flex;
         gap:20px; 
@@ -256,7 +260,8 @@ footer{
 
 @media screen and (min-width:992px){
     .container{
-        width:60%
+        width:992px;
+
     }
 
     .title{
@@ -272,23 +277,29 @@ footer{
     }
 
     .video{
-        width:70%;
+        width:100%;
     }
 
     .info_recipe{
         width:30%;
     }
-
+    
     .social_name{
-        display:inline-block;
+        display:inline;
         color:black;
+        vertical-align:middle;
         font-size:10px;
         margin-left:4px;
-        vertical-align:middle;
     }
 
     .banner img{
         width:100%;
+    }
+
+    .tiramisù img{
+        float:left;
+        width:30%;
+        margin-right:20px;
     }
 
     .footer-content{
@@ -312,9 +323,4 @@ footer{
         justify-content:space-between;
     }
 
-    .tiramisù img{
-        float:left;
-        width:30%;
-        margin-right:20px;
-    }
 }
